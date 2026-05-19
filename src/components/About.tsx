@@ -36,8 +36,8 @@ export default function About() {
           </div>
 
           <div className="mt-10 flex items-center gap-6">
-            <a href="mailto:hello@jandevries.com" className="font-body text-xs tracking-widest uppercase text-text hover:text-accent transition-colors duration-300 flex items-center gap-3 group">
-              sitb00@icloud.com
+            <a href="mailto:booking@itsarahteixeira.nl" className="font-body text-xs tracking-widest uppercase text-text hover:text-accent transition-colors duration-300 flex items-center gap-3 group">
+              booking@itsarahteixeira.nl
               <span className="block w-6 h-px bg-current group-hover:w-10 transition-all duration-300" />
             </a>
           </div>
