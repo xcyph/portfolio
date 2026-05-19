@@ -15,7 +15,7 @@ export default function Contact() {
           Start a <span className="italic text-accent">project</span>
         </h2>
         <a
-          href="mailto:linkgame1133@gmail.com"
+          href="mailto:booking@itsarahteixeira.nl"
           className="inline-block font-body text-xs tracking-widest uppercase px-10 py-4 border border-accent text-accent hover:bg-accent hover:text-bg transition-all duration-300"
         >
           Get in touch
