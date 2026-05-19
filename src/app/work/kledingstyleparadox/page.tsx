@@ -190,7 +190,7 @@ export default function KledingstyleParadox() {
   <div className="grid grid-cols-3 gap-4">
     <div className="relative aspect-[3/4] bg-surface border border-border overflow-hidden">
       <Image
-        src="/work/Uitnodiging1.JPG"
+        src="/work/uitnodiging1.jpg"
         alt="Uitnodiging voorpagina"
         fill
         className="object-cover"
