@@ -190,7 +190,7 @@ export default function KledingstyleParadox() {
   <div className="grid grid-cols-3 gap-4">
     <div className="relative aspect-[3/4] bg-surface border border-border overflow-hidden">
       <Image
-        src="/work/uitnodiging1.JPG"
+        src="/work/Uitnodiging1.JPG"
         alt="Uitnodiging voorpagina"
         fill
         className="object-cover"
@@ -198,7 +198,7 @@ export default function KledingstyleParadox() {
     </div>
     <div className="relative aspect-[3/4] bg-surface border border-border overflow-hidden">
       <Image
-        src="/work/uitnodiging2.JPG"
+        src="/work/uitnodiging2.jpg"
         alt="Uitnodiging algemene info"
         fill
         className="object-cover"
@@ -206,7 +206,7 @@ export default function KledingstyleParadox() {
     </div>
     <div className="relative aspect-[3/4] bg-surface border border-border overflow-hidden">
       <Image
-        src="/work/uitnodiging3.JPG"
+        src="/work/uitnodiging3.jpg"
         alt="Moodboard"
         fill
         className="object-cover"
