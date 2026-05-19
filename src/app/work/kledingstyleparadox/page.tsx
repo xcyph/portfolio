@@ -257,43 +257,43 @@ export default function KledingstyleParadox() {
 
           {/* Grote foto — bovenaan volle breedte */}
           <FlipCard
-            src="/work/foto1.jpg"
+            src="/work/foto1.JPG"
             alt="Kledingstyle paradox foto 1"
             caption="This was the first time I posed lol"
           />
 
           {/* Twee naast elkaar */}
           <FlipCard
-            src="/work/foto2.jpg"
+            src="/work/foto2.JPG"
             alt="Kledingstyle paradox foto 2"
             caption="This was the first time I posed lol"
           />
           <FlipCard
-            src="/work/foto3.jpg"
+            src="/work/foto3.JPG"
             alt="Kledingstyle paradox foto 3"
             caption="This was the first time I posed lol"
           />
           
           <FlipCard
-            src="/work/foto4.jpg"
+            src="/work/foto4.JPG"
             alt="Kledingstyle paradox foto 4"
             caption="This was the first time I posed lol"
           />
 
           <FlipCard
-            src="/work/foto5.jpg"
+            src="/work/foto5.JPG"
             alt="Kledingstyle paradox foto 5"
             caption="This was the first time I posed lol"   
           />
 
           <FlipCard
-            src="/work/foto6.jpg"
+            src="/work/foto6.JPG"
             alt="Kledingstyle paradox foto 6"
             caption="This was the first time I posed lol"
           />
 
           <FlipCard
-            src="/work/foto7.jpg"
+            src="/work/foto7.JPG"
             alt="Kledingstyle paradox foto 7"
             caption="This was the first time I posed lol"
           />
