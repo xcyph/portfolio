@@ -23,8 +23,9 @@ const projects = [
     number: '03',
     title: 'Add On - The emergency chip',
     category: 'Opdracht B',
+    slug: 'addon',
     year: '2026',
-    tags: ['After Effects', 'Color Grade', 'Sound'],
+    tags: ['Editorial', 'Film', 'Sound'],
     description: 'Short documentary following underground electronic artists across Rotterdam and Berlin.',
   },
   {
