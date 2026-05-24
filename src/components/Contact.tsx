@@ -28,11 +28,15 @@ export default function Contact() {
           Sarah Teixeira<span className="text-accent">.</span>
         </span>
         <div className="flex gap-8">
-          {['Instagram', 'LinkedIn', 'GitHub'].map((s) => (
-            <a key={s} href="#" className="font-body text-[10px] tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">
-              {s}
-            </a>
-          ))}
+          {[
+  { label: 'Instagram', url: 'https://www.instagram.com/itssarah.mov' },
+  { label: 'LinkedIn', url: 'https://www.linkedin.com/in/sarah-teixeira-barroso-283295195/' },
+  { label: 'GitHub', url: 'https://github.com/xcyph' },
+].map((s) => (
+  <a key={s.label} href={s.url} target="_blank" rel="noopener noreferrer" className="font-body text-[10px] tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">
+    {s.label}
+  </a>
+))}
         </div>
         <span className="font-body text-[10px] text-muted">© 2026</span>
       </div>
