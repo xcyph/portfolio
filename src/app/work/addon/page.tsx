@@ -165,7 +165,7 @@ export default function AddOnEmergencyChip() {
       <section className="border-t border-border py-16 px-8 max-w-6xl mx-auto flex items-center justify-between">
         <span className="font-body text-xs tracking-widest uppercase text-muted">Next project</span>
         <Link
-          href="/work/kledingstyle-paradox"
+          href="/work/kledingstyleparadox"
           className="group flex items-center gap-4 font-display text-3xl font-light text-text hover:text-accent transition-colors duration-300"
         >
           Kledingstyle paradox
