@@ -49,3 +49,20 @@ body::before {
 .animate-delay-600 { animation-delay: 600ms; }
 
 .opacity-0 { opacity: 0; }
+/* Verberg de standaard cursor */
+* {
+  cursor: none !important;
+}
+
+/* Custom cursor */
+.cursor {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  background-color: #c8f75e;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  transition: transform 0.1s ease;
+}

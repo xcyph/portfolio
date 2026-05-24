@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, DM_Mono } from 'next/font/google'
 import './globals.css'
+import Cursor from '@/components/Cursor'
 
 const display = Cormorant_Garamond({
   subsets: ['latin'],
@@ -15,7 +16,7 @@ const body = DM_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Sarah\'s Portfolio',
+  title: "Sarah's Portfolio",
   description: 'Creative Portfolio',
 }
 
@@ -26,7 +27,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${display.variable} ${body.variable}`}>
-      <body>{children}</body>
+      <body>
+        <Cursor />
+        {children}
+      </body>
     </html>
   )
 }
