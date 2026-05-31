@@ -1,8 +1,10 @@
 'use client'
 import { useState, useEffect } from 'react'
+import { useTheme } from 'next-themes'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
+  const { theme, setTheme } = useTheme()
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40)
@@ -21,6 +23,12 @@ export default function Nav() {
           <a href="#about" className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">about</a>
           <a href="#contact" className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">contact</a>
           <a href="/code" className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">code</a>
+        <button
+  onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+  className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300"
+>
+  {theme === 'dark' ? 'light' : 'dark'}
+</button>
         </div>
       </div>
     </nav>
