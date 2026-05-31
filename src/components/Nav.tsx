@@ -17,15 +17,10 @@ export default function Nav() {
           ST<span className="text-accent">.</span>
         </a>
         <div className="flex items-center gap-10">
-          {['work', 'about', 'contact'].map((item) => (
-            <a
-              key={item}
-              href={`#${item}`}
-              className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300"
-            >
-              {item}
-            </a>
-          ))}
+          <a href="#work" className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">work</a>
+          <a href="#about" className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">about</a>
+          <a href="#contact" className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">contact</a>
+          <a href="/code" className="font-body text-xs tracking-widest uppercase text-muted hover:text-accent transition-colors duration-300">code</a>
         </div>
       </div>
     </nav>

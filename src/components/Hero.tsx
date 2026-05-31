@@ -15,8 +15,8 @@ export default function Hero() {
 
   return (
     <section className="min-h-screen flex flex-col justify-end pb-24 px-8 max-w-6xl mx-auto relative">
-      {/* Background glow */}
-      <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+   <div className="absolute top-1/3 left-1/4 w-96 h-96 bg-accent/5 rounded-full blur-3xl pointer-events-none" />
+
 
       <div className="relative z-10">
         {/* Label */}
