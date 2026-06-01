@@ -83,5 +83,9 @@ html.light ::-webkit-scrollbar-track { background: #f5f2ee; }
   pointer-events: none;
   z-index: 99999;
   transform: translate(-50%, -50%);
-  transition: transform 0.1s ease;
+  transition: transform 0.1s ease, background-color 0.3s ease;
+}
+
+.light .cursor {
+  background-color: #1a1a1a;
 }
