@@ -2,9 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+:root, .dark {
   --font-display: 'Cormorant Garamond', serif;
   --font-body: 'DM Mono', monospace;
+
+  --color-bg: 10 10 10;
+  --color-surface: 17 17 17;
+  --color-border: 30 30 30;
+  --color-muted: 136 136 136;
+  --color-text: 232 228 220;
+  --color-accent: 200 247 94;
 }
 
 * {
@@ -17,18 +24,23 @@ html {
   scroll-behavior: smooth;
 }
 
+.light{
+  --color-bg: 245 242 238;
+  --color-surface: 235 232 228;
+  --color-border: 210 207 203;
+  --color-muted: 100 100 100;
+  --color-text: 26 26 26;
+  --color-accent: 58 125 0; 
+}
+
 body {
-  background-color: #0a0a0a;
-  color: #e8e4dc;
+  background-color: rgb(var(--color-bg));
+  color: rgb(var(--color-text));
   font-family: var(--font-body);
   overflow-x: hidden;
 }
 
-/*Light mode override*/ 
-html.light body{
-  background-color: #f5f2ee;
-  color: #1a1a1a;
-}
+
 
 /* Grain overlay */
 body::before {

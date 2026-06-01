@@ -13,12 +13,12 @@ module.exports = {
         body: ['var(--font-body)'],
       },
       colors: {
-        bg: '#0a0a0a',
-        surface: '#111111',
-        border: '#1e1e1e',
-        accent: '#c8f75e',
-        muted: '#888888',
-        text: '#e8e4dc',
+        bg: 'rgb(var(--color-bg) / <alpha-value>)',
+        surface: 'rgb(var(--color-surface) / <alpha-value>)',
+        border: 'rgb(var(--color-border) / <alpha-value>)',
+        accent: 'rgb(var(--color-accent) / <alpha-value>)',
+        muted: 'rgb(var(--color-muted) / <alpha-value>)',
+        text: 'rgb(var(--color-text) / <alpha-value>)',
       },
       animation: {
         'fade-up': 'fadeUp 0.8s ease forwards',
