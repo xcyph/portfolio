@@ -177,7 +177,7 @@ export default function KledingstyleParadox() {
         Ondertussen had de plus-één al van alles geregeld zonder dat ik daarom had gevraagd, wat de
         situatie onnodig ingewikkeld maakte. Het was een leerzaam moment: er was een reden waarom ik
         specifiek die ene vriend had uitgenodigd, en ik had bij dat plan moeten blijven. Uiteindelijk
-        besloot hij zelf de shoot te skippen vanwege de situatie.
+        besloot hij zelf de shoot te overslaan vanwege de situatie.
       </p>
       <p className="font-body text-xs text-muted leading-relaxed">
         De tweede persoon belde me op de dag zelf in tranen ze voelde zich niet comfortabel in haar

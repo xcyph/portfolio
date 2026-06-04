@@ -23,12 +23,12 @@ export default function About() {
           </h2>
           <div className="space-y-4 font-body text-xs text-muted leading-relaxed">
             <p>
-              I'm a Rotterdam-based creative who works across design, development, photography, and film.
+              I'm a Rotterdam based creative who works across design, development, photography, and film.
               I believe the best work happens at the intersection of disciplines.
             </p>
             <p>
-              With a background in both engineering and visual arts, I bring a systems-thinking
-              approach to creative problems — and a creative eye to technical ones.
+              With a background in both engineering and visual arts, I bring a systems thinking
+              approach to creative problems and a creative eye to technical ones.
             </p>
             <p>
               Currently available for freelance projects and collaborations.
