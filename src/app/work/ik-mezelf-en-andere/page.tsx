@@ -67,7 +67,7 @@ export default function IkMezelfEnAndere() {
             <p className="font-body text-xs text-muted leading-relaxed">
               Als inspiratiebron koos ik de Britse kunstenares{' '}
               <span className="text-text">Tracey Emin</span>, bekend om haar rauw autobiografische werk
-              waarin ze zichzelf zonder filter laat zien — inclusief de minder mooie kanten.
+              waarin ze zichzelf zonder filter laat zien inclusief de minder mooie kanten.
             </p>
           </div>
         </div>
@@ -108,7 +108,7 @@ export default function IkMezelfEnAndere() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 mb-12">
           <div className="space-y-5">
             <p className="font-body text-xs text-muted leading-relaxed">
-              Ik film mezelf in mijn bed. Korte momenten wisselen af — ik maak me klaar, ik kijk in de
+              Ik film mezelf in mijn bed. Korte momenten wisselen af; ik maak me klaar, ik kijk in de
               spiegel, ik kleed me vrouwelijk en mannelijk. Twee kanten van wie ik ben.
             </p>
             <p className="font-body text-xs text-muted leading-relaxed">
@@ -123,7 +123,7 @@ export default function IkMezelfEnAndere() {
           <div className="border-l border-accent/30 pl-8">
             <p className="font-display text-xl font-light text-text/80 leading-relaxed italic">
               "Ik ben een vrouw die vloeiend omgaat met zowel mannelijke als vrouwelijke energie. Die
-              twijfel is niet van mij — die heb ik overgenomen van mensen die mij altijd hebben beoordeeld."
+              twijfel is niet van mij die heb ik overgenomen van mensen die mij altijd hebben beoordeeld."
             </p>
           </div>
         </div>
@@ -187,7 +187,7 @@ export default function IkMezelfEnAndere() {
               zijn. Verder in mezelf kennen, verder op een pad waar ik energie van krijg.
             </p>
             <p className="font-body text-xs text-muted leading-relaxed">
-              Ik wil verhalen vertellen — van mezelf, maar ook voor anderen. Werken met mensen die hun
+              Ik wil verhalen vertellen van mezelf, maar ook voor anderen. Werken met mensen die hun
               creativiteit met mij willen delen, zodat ik die in beelden kan brengen waar kijkers zich in
               herkennen of door worden geïnspireerd.
             </p>
