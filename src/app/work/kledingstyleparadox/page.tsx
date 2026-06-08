@@ -253,51 +253,84 @@ export default function KledingstyleParadox() {
 
       {/* Image grid — vervang de gekleurde vlakken met echte <Image /> zodra je foto's hebt */}
       <section className="px-8 max-w-6xl mx-auto pb-32">
+        <div className="flex items-center gap-6 mb-10">
+          <span className="font-body text-xs tracking-[0.3em] uppercase text-accent">Foto's van Sarah Teixeira Barroso</span>
+          <div className="flex-1 h-px bg-border" />
+        </div>
         <div className="grid grid-cols-3 gap-1">
 
           {/* Grote foto — bovenaan volle breedte */}
           <FlipCard
             src="/work/foto1.JPG"
             alt="Kledingstyle paradox foto 1"
-            caption="This was the first time I posed lol"
+            caption="This was the first time I posed"
           />
 
           {/* Twee naast elkaar */}
           <FlipCard
             src="/work/foto2.JPG"
             alt="Kledingstyle paradox foto 2"
-            caption="This was the first time I posed lol"
+            caption="This was the first time I posed "
           />
           <FlipCard
             src="/work/foto3.JPG"
             alt="Kledingstyle paradox foto 3"
-            caption="This was the first time I posed lol"
+            caption="This was the first time I posed "
           />
           
           <FlipCard
             src="/work/foto4.JPG"
             alt="Kledingstyle paradox foto 4"
-            caption="This was the first time I posed lol"
+            caption="This was the first time I posed "
           />
 
           <FlipCard
             src="/work/foto5.JPG"
             alt="Kledingstyle paradox foto 5"
-            caption="This was the first time I posed lol"   
+            caption="This was the first time I posed "   
           />
 
           <FlipCard
             src="/work/foto6.JPG"
             alt="Kledingstyle paradox foto 6"
-            caption="This was the first time I posed lol"
+            caption="This was the first time I posed "
           />
 
           <FlipCard
             src="/work/foto7.JPG"
             alt="Kledingstyle paradox foto 7"
-            caption="This was the first time I posed lol"
+            caption="This was the first time I posed "
           />
+          <FlipCard
+            src="/work/DSC_0070.JPG"
+            alt="Kledingstyle paradox foto 7"
+            caption="This was the first time I posed "
+          />
+          <FlipCard
+            src="/work/DSC_0060.JPG"
+            alt="Kledingstyle paradox foto 7"
+            caption="This was the first time I posed "
+          />
+          
 
+
+        </div>
+      </section>
+      {/* ── Foto's van vriendin ───────────────────────────── */}
+      {/* Voeg hieronder de bestandsnamen toe van de foto's van je vriendin */}
+      <section className="px-8 max-w-6xl mx-auto pb-32">
+        <div className="flex items-center gap-6 mb-10">
+          <span className="font-body text-xs tracking-[0.3em] uppercase text-accent">Foto's van Shaniqua Devine</span>
+          <div className="flex-1 h-px bg-border" />
+        </div>
+        <div className="grid grid-cols-3 gap-1">
+          {/* Vervang DSC_XXXX.JPG door de juiste bestandsnamen */}
+          <FlipCard src="/work/DSC_0039.JPG" alt="Vriendin" caption="eerste shot mislukt" />
+          <FlipCard src="/work/DSC_0026.JPG" alt="Vriendin" caption="look 1" />
+          <FlipCard src="/work/DSC_0014.JPG" alt="Vriendin" caption="look 2" />
+          <FlipCard src="/work/DSC_0161.JPG" alt="Vriendin — look 1" caption="look 3" />
+          <FlipCard src="/work/DSC_0171.JPG" alt="Vriendin — look 2" caption="look 3" />
+          <FlipCard src="/work/DSC_0138.JPG" alt="Vriendin — look 3" caption="look 3" />
         </div>
       </section>
 
@@ -305,10 +338,10 @@ export default function KledingstyleParadox() {
       <section className="border-t border-border py-16 px-8 max-w-6xl mx-auto flex items-center justify-between">
         <span className="font-body text-xs tracking-widest uppercase text-muted">Next project</span>
         <Link
-          href="/work/reverie"
+          href="/work/ik-mezelf-en-andere"
           className="group flex items-center gap-4 font-display text-3xl font-light text-text hover:text-accent transition-colors duration-300"
         >
-          Reverie
+          Ik, mezelf en andere
           <span className="text-base group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300">↗</span>
         </Link>
       </section>
