@@ -218,7 +218,7 @@ export default function IkMezelfEnAndere() {
           <div className="space-y-5">
             <p className="font-body text-xs text-muted leading-relaxed">
               Uiteindelijk heb ik het anders gedaan dan ik had gepland. Het storyboard, de shots, de
-              verschillende kleding — ik heb dat allemaal losgelaten. Ik heb besloten om gewoon voor de
+              verschillende kleding ik heb dat allemaal losgelaten. Ik heb besloten om gewoon voor de
               camera te gaan zitten en te praten. De ruwe versie. Niet een versie die ik wilde presenteren,
               maar wie ik op dat moment was.
             </p>
@@ -232,7 +232,7 @@ export default function IkMezelfEnAndere() {
           <div className="space-y-5">
             <p className="font-body text-xs text-muted leading-relaxed">
               Als je goed kijkt naar de video, zie je hoe mijn stem verandert. Ik begin enthousiast, maar
-              word daarna stiller en verdrietiger. Aan het einde is er een soort frustratie — niet omdat
+              word daarna stiller en verdrietiger. Aan het einde is er een soort frustratie niet omdat
               het misging, maar omdat dit onderwerp mij raakt. Omdat ik het moeilijk vind om mezelf
               echt te zien.
             </p>
