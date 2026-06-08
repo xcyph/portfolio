@@ -1,7 +1,6 @@
 export default function About() {
   const skills = [
     { label: 'Frontend', items: 'Next.js, React, TypeScript, Tailwind' },
-    { label: 'Motion', items: 'After Effects, Framer Motion, GSAP' },
     { label: 'Visual', items: 'Photography, Film, Color Grading' },
     { label: 'Design', items: 'Figma, Branding, Typography' },
   ]
@@ -56,7 +55,7 @@ export default function About() {
 
           {/* Stats */}
           <div className="grid grid-cols-3 gap-8 pt-6">
-            {[['5+', 'Years exp.'], ['40+', 'Projects'], ['3', 'Disciplines']].map(([num, label]) => (
+            {[['2', 'Years exp.'], ['5', 'Projects'], ['3', 'Disciplines']].map(([num, label]) => (
               <div key={label}>
                 <div className="font-display text-4xl font-light text-accent mb-1">{num}</div>
                 <div className="font-body text-[10px] tracking-widest uppercase text-muted">{label}</div>
