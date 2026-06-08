@@ -11,13 +11,14 @@ const projects = [
     tags: ['Queer', 'Lesbian'],
     description: 'My first photo series, exploring the paradox of clothing styles in queer and lesbian communities.',
   },
-  {
-    number: '02',
-    title: 'Ik, mijzelf en anderen',
-    category: 'Opdracht B',
-    year: '2026',
-    tags: ['Portrait', 'Editorial', 'Film'],
-    description: 'A series of analog portraits shot on 35mm. Exploring light and shadow in urban spaces.',
+ {
+  number: '02', 
+  title: 'Ik, Mezelf en Andere',
+  category: 'Film & Zelfportret',
+  year: '2026',
+  slug: 'ik-mezelf-en-andere',
+  tags: ['Film', 'Self-Portrait', 'Experimental'],
+  description: 'A deeply personal film exploring identity, self-perception, and the relationship between the self and others through a blend of experimental visuals and intimate storytelling.',
   },
   {
     number: '03',
@@ -28,14 +29,7 @@ const projects = [
     tags: ['Editorial', 'Film', 'Sound'],
     description: 'Short documentary following underground electronic artists across Rotterdam and Berlin.',
   },
-  {
-    number: '04',
-    title: 'Forma',
-    category: 'Branding & Identity',
-    year: '2026',
-    tags: ['Identity', 'Print', 'Type'],
-    description: 'Complete brand identity for a minimalist furniture label. Logotype, collateral, and web.',
-  },
+ 
 ]
 
 export default function Work() {
