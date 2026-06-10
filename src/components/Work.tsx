@@ -29,7 +29,15 @@ const projects = [
     tags: ['Editorial', 'Film', 'Sound'],
     description: 'Short documentary following underground electronic artists across Rotterdam and Berlin.',
   },
- 
+  {
+  number: '04',
+  title: 'Foto galerij',
+  category: 'Photography',
+  year: '2026',
+  slug: 'foto-galerij',
+  tags: ['Portrait', 'Photography'],
+  description: 'Een selectie portretten.',
+},
 ]
 
 export default function Work() {
